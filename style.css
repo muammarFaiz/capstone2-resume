@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    padding: 10px 15vw;
+    background-color: #a8cbff;
+    background-image: url(black-twill.png);
+}
+body * {
+    /* border: 1px solid black; */
+    min-height: 20px;
+    padding: 5px;
+}
+.head, .main, .footer {
+    background-color: #cdd5e1;
+}
+.head > h2 {
+    font-family: "Lato", sans-serif;
+}
+.main, .footer {
+    padding: 5px 40px;
+    font-family: "Lato", sans-serif;
+}
+.footer{
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+.head {
+    text-align: center;
+    padding: 5px 0;
+}
+.photo {
+    background: radial-gradient(circle, #000000, #a8cbff);
+}
+.photo > img {
+    height: 200px;
+    border-radius: 50%;
+}
+.skill > ul > li > a {
+    visibility: hidden;
+}
+.skill > ul > li:hover > a {
+    visibility: visible;
+}
+
+@media (max-width: 700px) {
+    body {
+        padding: 10px 10vw;
+    }
+}
+@media (max-width: 550px) {
+    body {
+        padding: 10px 5vw;
+    }
+}
